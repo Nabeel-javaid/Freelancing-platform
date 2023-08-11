@@ -93,7 +93,7 @@ function Register() {
                 </MDBCol>
                 <MDBCol md="6">
                   <MDBCardBody className="text-black d-flex flex-column justify-content-center">
-                    <h3 className="mb-5 text-uppercase fw-bold">jobify registration form</h3>
+                    <h3 className="mb-5 text-uppercase fw-bold">JOBIFY registration form</h3>
                     <form onSubmit={handleSubmit}>
                       <MDBRow>
                         <MDBCol md="6">

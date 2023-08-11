@@ -20,7 +20,7 @@ import Pay from './pay/Pay';
 import LandingPage from './LandingPage/LandingPage';
 import MainNavbar from './UserNavbar/MainNavbar';
 import Register from './Register/Register';
-import Submission from './Review/Submission';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,8 +36,6 @@ root.render(
       <Route path="/userlogin" element={<div><MainNavbar/><Login /></div>} />
 
       <Route path="/register" element={<div><MainNavbar/><Register /></div>} />
-
-      <Route path="/submission" element={<div><UserNavbar/><Submission /></div>} />
 
       <Route path="/service/myservice" element={<div><UserNavbar /><ServiceDecider /></div>} />
 

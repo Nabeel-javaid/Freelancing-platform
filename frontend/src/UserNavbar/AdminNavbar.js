@@ -9,7 +9,7 @@ const AdminNavbar = () => {
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <FontAwesomeIcon icon={faHandshakeAngle} className="me-2" />
-          <span>jobify</span>
+          <span>JOBIFY</span>
         </Link>
         <div className="ml-auto">
           <ul className="navbar-nav">

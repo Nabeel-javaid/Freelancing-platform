@@ -4,7 +4,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import { useParams } from "react-router-dom";
 import CheckoutForm from "./CheckoutForm.js";
 import { useCookies } from 'react-cookie';
-  const stripePromise = loadStripe("pk_test_51NGGESJjeYyIXeQZ9gDCqWXPhfPqG3XSbZorMG1AosSYU4kSP9WzLfLlBLTFmTdDbjMggA9lkH4JSqkGJ6KMFJ5V001ZZTzlcy");
+  const stripePromise = loadStripe("pk_test_51MbiP8FKHyOAiYnCAQnmgGVLJaBgSdmu4QnrjBN16SxyhGujYfwkShWvRGovSsROPNJrH78mwA2legLUkCi30ZPt00JBPtjO44");
 
 
 
